@@ -10,6 +10,8 @@ namespace OOPLab04
     {
         static void Main(string[] args)
         {
+            Class1 class1 = new Class2();
+            class1.Method1(1, 2, "test");
         }
     }
 }
